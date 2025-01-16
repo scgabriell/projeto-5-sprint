@@ -24,4 +24,15 @@ sec_button = st.button('Criar grafico dispersão')
 if sec_button:
     st.write('Criando um gráfico de dispersão')
     sec=px.scatter(car_data, x="odometer", y="price", title="Gráfico de Dispersão")
-    st.plotly_chart(sec)     
+    st.plotly_chart(sec) 
+    
+    
+first_select = st.checkbox("Mostrar histograma ")
+if first_select:
+        fig2 = px.histogram(car_data, x="odometer", title="Com o checkbox ativo ")
+        st.plotly_chart(fig2, use_container_width=True)
+
+else:
+        sec=px.scatter(car_data, x="odometer", y="price", title="Sem o checkbox ativo ")
+        st.plotly_chart(sec) 
+                
