@@ -5,4 +5,4 @@ Criando nosso App
 
 Primeira versão do nosso app, suas funcionalidades 
 
-Link do app no web: [text](https://projeto-5-sprint.onrender.com) 
+Link do app no web: [Projeto TripleTen](https://projeto-5-sprint.onrender.com) 
