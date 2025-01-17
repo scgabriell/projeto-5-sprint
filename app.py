@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import scipy as sy
 
-car_data = pd.read_csv("C:/Users/gabri/OneDrive/Documentos/GitHub/projeto-5-sprint/data/vehicles.csv") 
+car_data = pd.read_csv("data/vehicles.csv") 
 
 st.header("Título do Cabeçalho")
 
